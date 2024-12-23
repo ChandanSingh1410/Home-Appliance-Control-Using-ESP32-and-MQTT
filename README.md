@@ -26,3 +26,11 @@ Connect the Common (COM) terminal to the power source of the appliance.
 Power Supply:
 
 Use a 5V USB power adapter for the ESP32 board.
+
+
+Steps to Implement
+Set up an Ubidots account and create a device for the ESP32.
+Add variables (relay1, relay2, relay3, relay4) and copy the topic format (/v1.6/devices/esp32/<variable_name>).
+Flash the code to the ESP32 using the Arduino IDE.
+Connect the ESP32 to Wi-Fi and monitor the connection status.
+Control the appliances via the Ubidots dashboard by toggling the variables.
